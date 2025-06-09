@@ -1,0 +1,8 @@
+xlion-repo-test-archive-keyring (1.2) main; urgency=medium
+
+  * Sorry for bothering! You're seeing this because you're using my RustDesk repos.
+  * If you haven't point the `Signed-By` entry to
+  * `/usr/share/keyrings/xlion-repo-test-archive-keyring.gpg` in your `source` or `list`
+  * please consider doing it now! or go back to the README to reimport the repo file.
+
+ -- Shihfu Juan <xlion@xlion.tw>  Tue, 10 Jun 2025 03:18:21 +0800

@@ -1,3 +1,9 @@
+xlion-repo-test-archive-keyring (1.2) main; urgency=medium
+
+  * Add NEWS
+
+ -- Shihfu Juan <xlion@xlion.tw>  Tue, 10 Jun 2025 03:18:21 +0800
+
 xlion-repo-test-archive-keyring (1.1) main; urgency=medium
 
   * Fix missing .install file cause no GPG keys included
