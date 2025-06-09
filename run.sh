@@ -22,5 +22,6 @@ rm -r debian/.debhelper
 rm debian/debhelper-build-stamp
 rm debian/files
 rm debian/*.substvars
+rm debian/*.gpg
 rm pubkeys/merged.asc
-rm -r debian/xlion-*
+rm -r debian/xlion-repo-test-archive-keyring
