@@ -1,4 +1,10 @@
-xlion-repo-test-archive-keyring (1.2) main; urgency=medium
+xlion-repo-test-archive-keyring (1.3) ; urgency=medium
+
+  * Try fix NEWS and changelog
+
+ -- Shihfu Juan <xlion@xlion.tw>  Tue, 10 Jun 2025 03:43:07 +0800
+
+xlion-repo-test-archive-keyring (1.2) ; urgency=medium
 
   * Add NEWS
 
