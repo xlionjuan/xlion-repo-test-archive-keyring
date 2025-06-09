@@ -1,0 +1,14 @@
+Source: xlion-repo-test-archive-keyring
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (=13)
+Standards-Version: 4.6.1
+Vcs-Git: https://github.com/xlionjuan/xlion-repo-test-archive-keyring.git
+Maintainer: Shihfu Juan <xlion@xlion.tw>
+
+Package: xlion-repo-test-archive-keyring
+Architecture: all
+Depends: ${misc:Depends},
+Description: XLion repo test archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ XLion repos.
