@@ -4,7 +4,7 @@ set -ouex pipefail
 
 echo "Merging keys..."
 cat pubkeys/*.asc > pubkeys/merged.asc
-gpg --dearmor --output debian/xlion-repo-test-archive-keyring.gpg pubkeys/merged.asc
+gpg --dearmor --output debian/xlion-repo.gpg pubkeys/merged.asc
 
 echo ""
 echo ""
