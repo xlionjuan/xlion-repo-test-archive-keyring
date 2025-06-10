@@ -30,7 +30,7 @@ jobs:
             bash run.sh
           
         - name: GitHub Attestations for binaries
-          uses: actions/attest@v2.3.0
+          uses: actions/attest@afd638254319277bb3d7f0a234478733e2e46a73 # v2.3.0
           with:
             predicate-type: 'https://in-toto.io/attestation/release'
             predicate: '{}'
@@ -38,7 +38,7 @@ jobs:
               *.deb
 
         - name: Release
-          uses: softprops/action-gh-release@v2.2.2
+          uses: softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631 # v2.2.2
           if: github.ref_type == 'tag'
           with:
             files: "*.deb"
